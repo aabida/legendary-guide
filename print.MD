@@ -1,2 +1,2 @@
-#Print file on linux
+# Print file on linux
 lpr -o sides=two-sided-long-edge file-name
