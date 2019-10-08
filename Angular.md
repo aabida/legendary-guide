@@ -33,3 +33,5 @@ parenthèses() : evenements de sorties
 
 # Run server
 ng server
+
+ng generate (component, module, ...) nom
