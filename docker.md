@@ -21,13 +21,13 @@ Example : show the mysql version of a running container :
  mysql --user=root --password=$MYSQL_ROOT_PASSWORD --version
  ```
 
-# Docker-compose Tool
+## Docker-compose Tool
 Execute a command on one of the services declared in the docker-compose.yml file :
 ```linux
- docker-compose exec -it mydb \
- mysql --user=root --password=$MYSQL_ROOT_PASSWORD --version
+ docker-compose exec [service] [command]
  ```
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDU3OTU4MjIsLTE4NzMwNTAyNjgsLT
-QyMDIwNzIxNV19
+eyJoaXN0b3J5IjpbMzQ2OTUwOTkwLC0xODczMDUwMjY4LC00Mj
+AyMDcyMTVdfQ==
 -->
