@@ -4,6 +4,7 @@
 ```linux
 docker exec -ti container_id sh
 ```
+*Note that -ti is equivalent to --interactive --tty*
 
 **Run an ubuntu container and kill it when you exit**
 ```linux
@@ -20,5 +21,5 @@ Example : show the mysql version of a running container :
  mysql --user=root --password=$MYSQL_ROOT_PASSWORD --version
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDIwNzIxNV19
+eyJoaXN0b3J5IjpbLTE4NzMwNTAyNjgsLTQyMDIwNzIxNV19
 -->
