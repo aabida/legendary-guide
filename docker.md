@@ -19,3 +19,6 @@ Example : show the mysql version of a running container :
  docker exec -it mydb \
  mysql --user=root --password=$MYSQL_ROOT_PASSWORD --version
  ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQyMDIwNzIxNV19
+-->
