@@ -13,3 +13,20 @@ Steps :
 ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
 ```
 4. Use a link beginning with git@github.com when you clone
+
+# Recommanded configuration
+1. Set email and username
+```bash
+git config --global user.name=Your Username (configured in github)
+git config --global user.email=Your Email Addresse (configured in github)
+```
+2. Set proxy if needed
+```bash
+git config --global http.proxy http://proxyUsername:proxyPassword@proxy.server.com:port
+```
+3. Configure Aliases
+```bash
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.st status
+```
