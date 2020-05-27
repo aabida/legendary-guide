@@ -6,9 +6,9 @@ pdfunite file1.pdf file2.pdf fileN.pdf output-file.pdf
 **To reduce file size :**
 Use ghostscript
 Example :
-
-    gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input-file.pdf
-
+```bash
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input-file.pdf
+```
 where : 
 
 -   `-dPDFSETTINGS=/screen`  lower quality, smaller size. (_72 dpi_)
@@ -19,4 +19,11 @@ where :
 
 **To convert an image to a pdf file :**
 
-    convert image-file.jpg output-file.pdf
+```bash
+convert image-file.jpg output-file.pdf
+```
+
+**Murge multiple jpg to one pdf :**
+```bash
+convert `ls -v *.jpg` output.pdf
+```
