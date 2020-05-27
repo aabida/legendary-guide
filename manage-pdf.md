@@ -1,9 +1,9 @@
 
 
-**To merge pdf files :**
+## To merge pdf files :
 pdfunite file1.pdf file2.pdf fileN.pdf output-file.pdf
 
-**To reduce file size :**
+## To reduce file size :
 Use ghostscript
 Example :
 ```bash
@@ -17,13 +17,18 @@ where :
 -   `-dPDFSETTINGS=/printer`  selects output similar to the Acrobat Distiller "Print Optimized" setting (_300 dpi_)
 -   `-dPDFSETTINGS=/default`  selects output intended to be useful across a wide variety of uses, possibly at the expense of a larger output file
 
-**To convert an image to a pdf file :**
+## To convert an image to a pdf file :
 
 ```bash
 convert image-file.jpg output-file.pdf
 ```
 
-**Murge multiple jpg to one pdf :**
+## Murge multiple jpg to one pdf :
 ```bash
 convert `ls -v *.jpg` output.pdf
+```
+
+## Rotate an image
+```bash
+convert file.jpg -rotate 90 output.jpg
 ```
