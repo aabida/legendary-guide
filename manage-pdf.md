@@ -32,3 +32,8 @@ convert `ls -v *.jpg` output.pdf
 ```bash
 convert file.jpg -rotate 90 output.jpg
 ```
+
+## Scale an image
+```bash
+convert image.png -scale 30% new-image.png
+```
