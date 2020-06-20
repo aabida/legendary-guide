@@ -38,3 +38,17 @@ To pass parameters to the script, add it after /dev/stdin as here:
 ssh -i path/to/private/key user@server "cat | bash /dev/stdin param1 param2" < script-file.sh  
 ```
 Note : the default private key that will be used is in ```$HOME/.ssh/id_rsa```
+
+## Add a program to Ubuntu launcher
+You will be able to add a shortcut to an application
+
+All the shortcuts are in the directory *~/.local/share/applications*.
+Create a new file in the directory and add the following content :
+```bash
+[Desktop Entry]
+Type = Application
+Name = name-of-application
+Comment = your-desired-comment
+Exec = command to execute (ex. 'eclipse')
+Icon = path-to-icon
+```
