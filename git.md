@@ -17,8 +17,8 @@ ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
 # Recommanded configuration
 1. Set email and username
 ```bash
-git config --global user.name=Your Username (configured in github)
-git config --global user.email=Your Email Addresse (configured in github)
+git config --global user.name=Your Username #configured in github
+git config --global user.email=Your Email Addresse #configured in github
 ```
 2. Set proxy if needed
 ```bash
