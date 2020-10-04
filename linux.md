@@ -53,7 +53,7 @@ Comment = your-desired-comment
 Exec = command to execute (ex. 'eclipse')
 Icon = path-to-icon
 ```
-## Upgrade applications and diffrent commands
+## Upgrade applications
 ```bash
 sudo apt full-upgrade
 ```
