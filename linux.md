@@ -1,3 +1,4 @@
+
 ----------
 LINUX
 ----------
@@ -52,3 +53,8 @@ Comment = your-desired-comment
 Exec = command to execute (ex. 'eclipse')
 Icon = path-to-icon
 ```
+## Upgrade applications and diffrent commands
+```bash
+sudo apt full-upgrade
+```
+Reference : [lecoindunet.com](https://www.lecoindunet.com/difference-apt-update-upgrade-full-upgrade)
