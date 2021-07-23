@@ -22,3 +22,8 @@ ssh -i ~/.ssh/meaningful-name.key user@host
 1. Change the **PasswordAuthentication yes** to **no** in the file */etc/ssh/sshd_config*
 2. ``sudo service ssh reload``
 
+# Reference
+- https://www.ssh.com/academy/ssh/authorized-keys-file
+- https://www.ssh.com/academy/ssh/copy-id
+- https://www.e2enetworks.com/help/knowledge-base/how-to-enable-disable-password-based-authentication-for-ssh-access-to-server/
+- https://qastack.fr/ubuntu/1991/disable-password-access-through-ssh
