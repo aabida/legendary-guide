@@ -9,6 +9,7 @@ ssh-keygen -t rsa -b 4096 -f ~/.ssh/meaningful-name.key -C "My name and server D
 ```bash
 ssh-copy-id -i ~/.ssh/meaningful-name.key user@host
 ```
+This command will add the public key to **~/.ssh/authorized_keys** file
 
 # Connect to the server using the generated key
 
