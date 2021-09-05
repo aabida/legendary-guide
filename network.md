@@ -1,5 +1,5 @@
 # Check a port is taken by which program on Linux
-`netstat -tunlp | grep [port]`
+    netstat -tunlp | grep [port]
 
 Ref: [https://www.pixelstech.net/article/1534063164-How-to-check-a-port-is-taken-by-which-program-on-Linux]
 
