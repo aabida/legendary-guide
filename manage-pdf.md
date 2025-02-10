@@ -1,3 +1,5 @@
+# Prerequisite
+To be able to use commands, please install ImageMagick : https://imagemagick.org/script/download.php
 
 
 ## To merge pdf files :
